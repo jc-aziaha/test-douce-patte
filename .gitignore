@@ -1,0 +1,6 @@
+# Réunions client : transcriptions et comptes rendus (données confidentielles)
+# Seuls les .gitkeep sont versionnés pour conserver les dossiers.
+reunions/transcriptions/*
+reunions/comptes-rendus/*
+!reunions/transcriptions/.gitkeep
+!reunions/comptes-rendus/.gitkeep

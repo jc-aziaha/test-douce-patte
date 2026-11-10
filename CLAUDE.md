@@ -11,10 +11,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```
 test-douce-patte/
 ├── .claude/
-│   └── rules/
-│       └── git-conventions.md  # Conventions de nommage des branches et des commits
-├── CLAUDE.md                   # Guidance pour Claude Code (ce fichier)
-└── README.md                   # Feuille de route du projet en 4 phases
+│   ├── rules/
+│   │   └── git-conventions.md        # Conventions de nommage des branches et des commits
+│   └── skills/
+│       └── compte-rendu-reunion/
+│           ├── SKILL.md              # Compétence : rédiger le compte rendu d'une réunion client
+│           └── template.md           # Modèle de sortie du compte rendu
+├── reunions/                         # Contenu ignoré par Git (confidentiel)
+│   ├── transcriptions/               # Transcriptions des réunions (entrée)
+│   └── comptes-rendus/               # Comptes rendus générés (sortie)
+├── .gitignore
+├── CLAUDE.md                         # Guidance pour Claude Code (ce fichier)
+└── README.md                         # Feuille de route du projet en 4 phases
 ```
 
 ## Mise à jour de ce fichier
