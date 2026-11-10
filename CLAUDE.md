@@ -10,8 +10,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```
 test-douce-patte/
-├── CLAUDE.md    # Guidance pour Claude Code (ce fichier)
-└── README.md    # Feuille de route du projet en 4 phases
+├── .claude/
+│   └── rules/
+│       └── git-conventions.md  # Conventions de nommage des branches et des commits
+├── CLAUDE.md                   # Guidance pour Claude Code (ce fichier)
+└── README.md                   # Feuille de route du projet en 4 phases
 ```
 
 ## Mise à jour de ce fichier
